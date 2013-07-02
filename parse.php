@@ -40,5 +40,5 @@ if($handle){
   }
   fclose($handle);
 }
-
+var_dump($outputArticles);
 ?>

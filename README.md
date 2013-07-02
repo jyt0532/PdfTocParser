@@ -11,8 +11,20 @@ install pdftk
 
 ~~~sh
 $ pdftk path/to/pdfFile.pdf dump_data output Toc.txt
-$php parser.php
+$ php parser.php
 
 ~~~
 
+outputArticles will be:
+
+outputArticles: [
+  {
+    'title' : 
+    , 'level':
+    , 'pageNumber':
+  }
+]
+
 ###Note
+
+pdf with toc have two layers, publishers use different strategy to display their content, so you have to check contents in which layer is exacly what you want
