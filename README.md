@@ -12,18 +12,17 @@ install pdftk
 ~~~sh
 $ pdftk path/to/pdfFile.pdf dump_data output Toc.txt
 $ php parser.php
-
 ~~~
 
-outputArticles will be:
+- outputArticles will be:
 
-outputArticles: [
-  {
-    'title' : 
-    , 'level':
-    , 'pageNumber':
-  }
-]
+      [
+        {
+          "title" : "..."
+          , "level": "..."
+          , "pageNumber": "..."
+        }
+      ]
 
 ###Note
 
