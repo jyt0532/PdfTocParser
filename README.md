@@ -14,7 +14,7 @@ $ pdftk path/to/pdfFile.pdf dump_data output Toc.txt
 $ php parser.php
 ~~~
 
-- outputArticles will be:
+outputArticles will be:
 
       [
         {
